@@ -1,3 +1,12 @@
+import os
+import base64
+import json
+from census import Census
+import datetime
+import pandas as pd
+import gspread
+from gspread_dataframe import set_with_dataframe
+
 encoded = os.getenv("GOOGLE_CREDS")
 if not encoded:
     raise ValueError("GOOGLE_CREDS not set")
