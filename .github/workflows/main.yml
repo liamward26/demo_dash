@@ -9,8 +9,8 @@ jobs:
   run_etl:
     runs-on: ubuntu-latest
     env:
-      GOOGLE_CREDS_B64: ${{ secrets.GOOGLE_CREDS }}
-      CENSUS_API_KEY:    ${{ secrets.CENSUS_KEY }}
+      GOOGLE_CREDS: ${{ secrets.GOOGLE_CREDS }}
+      CENSUS_KEY:    ${{ secrets.CENSUS_KEY }}
 
     steps:
       - name: Checkout repository
