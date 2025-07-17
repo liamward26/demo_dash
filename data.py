@@ -41,7 +41,8 @@ years = list(range(most_recent_year - 9, most_recent_year + 1))  # Last 10 years
 
 # --- Combined and deduplicated variables ---
 vars_named = {
-    "population": "B01003_001E",
+    "population": "B01003_001E"}
+'''
     "total_households": "B19001_001E",
     "total_families": "B17010_001E",
     "families_below_poverty": "B17010_002E",
@@ -138,7 +139,8 @@ vars_named = {
     "median_house_value": "B25077_001E",
     "med_income": "B19013_001E",
     "median_income": "B19013_001E"
-}
+'''
+
 """
     APPEND THIS SECTION FOR MOST RECENT YEAR
     # Year built
