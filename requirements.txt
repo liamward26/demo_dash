@@ -1,0 +1,5 @@
+census==0.8.24
+pandas>=2.0
+gspread==6.1.2
+gspread-dataframe==4.0.0
+google-auth>=2.0
